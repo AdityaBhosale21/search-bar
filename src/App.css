@@ -1,0 +1,33 @@
+.App {
+  background: linear-gradient(to bottom, #ff9966, #ff5e62);;
+  height: 100vh;
+  width: 100vw;
+}
+
+.search-bar-container{
+  padding-top: 20vh;
+  width:40%;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+  
+}
+
+.search{
+
+background:linear-gradient(to bottom, #642b73, #c6426e);
+ display:flex;
+ flex-direction: column;
+ width: 300px;
+ margin-top: 2rem;
+ border-radius: 10px;
+ max-height: 200px;
+ overflow-y: scroll;
+}
+
+.search-res{
+  padding: 05px;
+  margin:05px;
+}
